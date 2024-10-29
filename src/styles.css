@@ -1,0 +1,85 @@
+/* General body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa; /* Color de fondo claro */
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Contenedor principal */
+  .container {
+    margin-top: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  /* Encabezados principales */
+  h1, h2 {
+    font-weight: bold;
+  }
+  
+  /* Barra de encabezado */
+  .header-bar {
+    background-color: #3bbdb5; /* Azul Bootstrap */
+    padding: 15px;
+    border-radius: 8px 8px 0 0; /* Bordes redondeados solo en la parte superior */
+    margin-bottom: 15px;
+  }
+  
+  .text-white {
+    color: white;
+  }
+  
+  /* Tabla de Bootstrap */
+  .table {
+    width: 100%;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+  }
+  
+  .table th {
+    background-color: #343a40;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  
+  .table th, .table td {
+    padding: 12px;
+    border-bottom: 1px solid #dee2e6;
+  }
+  
+  .table-striped tbody tr:nth-of-type(odd) {
+    background-color: #f2f2f2;
+  }
+  
+  /* Ajustes de fuente y alineación */
+  .table td {
+    font-size: 14px;
+  }
+  
+  .text-right {
+    text-align: right;
+  }
+  
+  /* Acentos */
+  .strong {
+    font-weight: bold;
+    color: #495057;
+  }
+  
+  /* Card styling (opcional) */
+  .card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: none;
+    border-radius: 8px;
+  }
+  
+  .card-header {
+    background-color: #343a40;
+    color: white;
+    font-weight: bold;
+  }
+  
